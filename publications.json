@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Transdisciplinary Engineering for Complex Systems",
+    "authors": "A. Researcher, B. Collaborator",
+    "venue": "Journal of Systems Engineering",
+    "year": 2023,
+    "link": "#"
+  },
+  {
+    "title": "Digital Twins in MBSE: A Practical Primer",
+    "authors": "A. Researcher",
+    "venue": "Conference on Systems Engineering (CSER)",
+    "year": 2024,
+    "link": "#"
+  },
+  {
+    "title": "Human\u2013Machine Teaming: Lessons from Fielded Systems",
+    "authors": "A. Researcher, C. Coauthor",
+    "venue": "IEEE Systems, Man, and Cybernetics Magazine",
+    "year": 2022,
+    "link": "#"
+  }
+]

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academic Portfolio · HSDT</title>
+  <meta name="description" content="A modern academic portfolio website inspired by leading researcher sites.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#home" aria-label="Home">
+        <img src="assets/img/favicon.svg" alt="Logo">
+        <span>Mouhamadou F. BALL</span>
+      </a>
+      <nav>
+        <button id="mobileMenuBtn" class="btn ghost" aria-label="Toggle menu">Menu</button>
+        <div id="navLinks" class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#research">Research</a>
+          <a href="#awards">Awards</a>
+          <!-- <a href="#books">Books</a> -->
+          <a href="#publications">Publications</a>
+          <a href="#accomplishments">Accomplishments</a>
+          <a href="#press">Press</a>
+          <!-- <a href="#contact">Contact</a> -->
+          <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">Dark Mode</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="kicker">PhD Candidate · Systems Engineering</div>
+        <h1>Complex System Analysis and Resilience Engineering</h1>
+        <p class="lead">I am a software engineer and researcher pursuing a PhD at Lab-STICC, ENSTA, Institut Polytechnique de Paris. My research focuses on the resilience and analysis of collaborative systems, with a particular application to drone swarms. I am passionate about developing robust, intelligent, and adaptive systems that enhance coordination and reliability in complex, multi-agent environments.</p>
+        <p class="hero-quote" style="font-size: large;">“All models are wrong, some are useful.” — George Box</p>
+        <div class="cta">
+          <a class="btn ghost">mouhamadou.ball@ensta.fr</a>
+          <a class="btn ghost">mfalilouball@gmail.com</a>
+          <!-- <a href="#publications" class="btn primary">Browse Publications</a>
+          <a href="#contact" class="btn ghost">Contact</a> -->
+        </div>
+        
+      </div>
+      <div class="hero-visual">
+        <img src="assets/img/best11.jpg" alt="Hero illustration" width="100%" height="100%" loading="eager">
+      </div>
+    </div>
+  </main>
+
+  <section id="research" class="section">
+    <div class="container">
+      <h2>Research</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Digital Twin</h3>
+          <p>Coupling complex systems with advanced Digital Twin architecture to provide various services.</p>
+        </div>
+        <div class="card">
+          <h3>MBSE</h3>
+          <p>Applying model-driven engineering to enhance complex system design and operational capabilities.</p>
+        </div>
+        <div class="card">
+          <h3>Reactive Programming</h3>
+          <p>Building reactive programs based on Smalltalk for metaprogramming purposes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="section">
+    <div class="container">
+      <h2>Awards & Certifications</h2>
+      <!-- <p class="lead">A sortable, year-first view. Replace the sample data in <code>awards.json</code>.</p> -->
+      <ul id="awardsList" class="awards-list">
+      <li class="award-item">
+        <!-- <div class="award-year">2024</div> -->
+        <div class="award-content">
+          <h3 class="award-title">Best Early Ideas Award 2024 -<a href="https://esug.org/"> European Smalltalk User Group</a></h3>
+          <p class="award-description">Recognized for innovative concepts and outstanding vision.</p>
+        </div>
+      </li>
+      <li class="award-item">
+        <!-- <div class="award-year">2024</div> -->
+        <div class="award-content">
+          <h3 class="award-title">MISS-ABMS 2023 -<a href="https://www.cirad.fr/"> CIRAD</a></h3>
+          <p class="award-description">Received a certification during the MULTI-PLATFORM INTERNATIONAL SUMMER SCHOOL ON AGENT-BASED MODELING & SIMULATION FOR RENEWABLE Resources MANAGEMENT.</p>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </section>
+
+  <!-- <section id="books" class="section" aria-labelledby="books-title">
+    <div class="container">
+      <h2 id="books-title">Books</h2>
+      <p class="lead">Add your authored and edited volumes via <code>books.json</code>.</p>
+      <div id="booksGrid" class="cards"></div>
+    </div>
+  </section> -->
+
+  
+
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Latests Publications</h2>
+      <!-- <p class="lead">Search by title, author, venue, or year. Update <code>publications.json</code> to add entries.</p> -->
+      <!-- <input id="pubsSearch" class="search" type="search" placeholder="Search publications… (e.g., 2024, MBSE, coauthor)"> -->
+      <!-- <div id="pubsList" class="list" style="margin-top:1rem;"></div> -->
+       <div class="list">
+        <div class="list-item">
+          <div><strong>Software design patterns for a STRIDE approach on an AUV fleet</strong><div class="small">Outlet name · YYYY-MM-DD</div></div>
+          <div class="meta"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=y5dvriAAAAAJ&citation_for_view=y5dvriAAAAAJ:UeHWp8X0CEIC">Read</a></div>
+        </div>
+        <div class="list-item">
+          <div><strong>Hierarchical System of Digital Twins: A Holistic Architecture for Swarm System Analysis</strong><div class="small">Outlet name · YYYY-MM-DD</div></div>
+          <div class="meta"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=y5dvriAAAAAJ&citation_for_view=y5dvriAAAAAJ:qjMakFHDy7sC">Read</a></div>
+        </div>
+        <div class="list-item">
+          <div><strong>SoSAF: A Pharo-Based Framework for Enhancing System of Systems Dependencies Analysis</strong><div class="small">Outlet name · YYYY-MM-DD</div></div>
+          <div class="meta"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=y5dvriAAAAAJ&citation_for_view=y5dvriAAAAAJ:2osOgNQ5qMEC">Read</a></div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="accomplishments" class="section">
+    <div class="container">
+      <h2>Accomplishments</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Mentorship</h3>
+          <p>Supervised and mentored engineering students in projects applying their software design skills.</p>
+        </div>
+        <div class="card">
+          <h3>Leadership</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dolore eligendi hic aliquid accusantium temporibus corporis at veniam. </p>
+        </div>
+        <div class="card">
+          <h3>Impact</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolor, cum dolores molestiae harum facilis excepturi dolorum </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="press" class="section">
+    <div class="container">
+      <h2>Press</h2>
+      <p class="lead">List selected interviews, news articles, and media features here.</p>
+      <div class="list">
+        <div class="list-item">
+          <div><strong>Amazon Cognito Authentification</strong><div class="small">Outlet name · 2022-10-25</div></div>
+          <div class="meta"><a href="https://medium.com/@mouhamadoufalilouball/amazon-cognito-nest-js-authentification-7a697dd4032f?source=user_profile_page---------2-------------e81c74a82be7----------------------">Read</a></div>
+        </div>
+        <div class="list-item">
+          <div><strong>Smart Game Board for CORMAS</strong><div class="small">Outlet name · 2023-11-20</div></div>
+          <div class="meta"><a href="https://medium.com/@mouhamadoufalilouball/smart-game-board-for-cormas-proposed-approach-58087435ad7e?source=user_profile_page---------1-------------e81c74a82be7----------------------">Read</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="lead">Add your preferred contact methods. The form below is a static example—connect it to a backend or form service to receive submissions.</p>
+      <form class="card" onsubmit="event.preventDefault(); alert('Thanks! This demo form does not submit.');">
+        <div class="cards" style="grid-template-columns: 1fr 1fr 1fr;">
+          <label> Name<br><input class="search" required placeholder="Your name"></label>
+          <label> Email<br><input type="email" class="search" required placeholder="you@example.com"></label>
+          <label> Subject<br><input class="search" required placeholder="Subject"></label>
+        </div>
+        <label> Message<br><textarea class="search" rows="6" required placeholder="How can we help?"></textarea></label>
+        <div style="margin-top: .75rem;">
+          <button class="btn primary" type="submit">Send</button>
+          <span class="small">Or email: <a href="mailto:you@example.com">you@example.com</a></span>
+        </div>
+      </form>
+    </div>
+  </section> -->
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <div>&copy; <span id="year"></span> Your Name</div>
+      <div class="small">Build with AI</div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="btn primary" style="position:fixed;right:1rem;bottom:1rem;display:none;">Back to top</button>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
