@@ -83,3 +83,31 @@ footer { padding: 2rem 0; border-top: 1px solid rgba(0,0,0,.06); color: var(--mu
 .search { width: 100%; padding: .6rem .8rem; border-radius: .6rem; border: 1px solid rgba(0,0,0,.1); background: transparent; color: var(--fg); }
 .search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
 .small { font-size: .9rem; color: var(--muted); }
+
+#courses .list-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+  }
+  #courses .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #courses .meta a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #courses .content {
+    display: none;
+    margin-top: 0.5em;
+    padding-left: 1em;
+  }
+  #courses .content.active {
+    display: block;
+  }
+
+  .hero-img {
+  height: 400px; /* Adjust this to match your hero section */
+  object-fit: cover; /* Crops the image to fill the area */
+}
